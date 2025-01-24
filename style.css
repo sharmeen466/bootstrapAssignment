@@ -77,6 +77,7 @@
         margin-right: 10px;
     }
 }
+
 @media (min-width: 576px) and (max-width:992.99px) {
     .nav-container img {
         margin-right: 140px;
@@ -136,15 +137,15 @@
 
 
 /* media query */
- @media (min-width: 1400px)and (max-width:1500px) {
+@media (min-width: 1400px)and (max-width:1500px) {
     .hdng {
         font-weight: 700;
         font-size: 50px;
 
     }
-} 
- 
- @media (min-width: 1200px) and (max-width:1399.99px) {
+}
+
+@media (min-width: 1200px) and (max-width:1399.99px) {
     #hero-section {
         height: 850px;
     }
@@ -161,7 +162,7 @@
     .section-btn {
         margin-top: 30px;
     }
-} 
+}
 
 @media (min-width: 992px) and (max-width:1199.99px) {
     #hero-section {
@@ -183,6 +184,7 @@
         width: 150px;
     }
 }
+
 @media (min-width: 768px) and (max-width:992.99px) {
     #hero-section {
         height: 850px;
@@ -204,6 +206,7 @@
         width: 130px;
     }
 }
+
 @media (max-width: 576px) {
     #hero-section {
         height: 700px;
@@ -213,7 +216,8 @@
         font-weight: 700;
         font-size: 30px;
     }
-    .box1 p{
+
+    .box1 p {
         font-size: 0.8rem;
     }
 
@@ -276,7 +280,7 @@
     text-align: justify;
 }
 
-@media (min-width: 992px) and (max-width:1200px){
+@media (min-width: 992px) and (max-width:1200px) {
     .col-lg-6 {
         margin-bottom: 50px;
     }
@@ -285,6 +289,7 @@
         height: 1200px;
     }
 }
+
 @media (min-width: 768px) and (max-width:992.99px) {
     .col-lg-6 {
         margin-bottom: 50px;
@@ -293,11 +298,13 @@
     #section-2 {
         height: 1200px;
     }
+
     .sub-hdng {
         font-size: 50px;
         font-weight: 600;
     }
 }
+
 @media (max-width: 576px) {
     .col-lg-6 {
         margin-bottom: 50px;
@@ -306,6 +313,7 @@
     #section-2 {
         height: 1900px;
     }
+
     .sub-hdng {
         font-size: 50px;
         font-weight: 600;
@@ -346,28 +354,34 @@
         margin-right: 100px;
     }
 }
+
 @media (min-width: 768px) and (max-width:992.99px) {
     .container1 {
-        height: 450px;        
+        height: 450px;
         margin-right: 100px;
     }
+
     .section-hdng {
         font-size: 50px;
         font-weight: 700;
     }
+
     .para3 {
         font-size: 1rem;
     }
 }
+
 @media (max-width: 576px) {
     .container1 {
-        height: 450px;        
+        height: 450px;
         margin-right: 100px;
     }
+
     .section-hdng {
         font-size: 50px;
         font-weight: 700;
     }
+
     .para3 {
         font-size: 1rem;
     }
@@ -404,11 +418,13 @@ span img {
         height: 1300px;
     }
 }
+
 @media (min-width: 768px) and (max-width:992.99px) {
     #section-4 {
         height: 1300px;
     }
 }
+
 @media (max-width: 576px) {
     #section-4 {
         height: 1800px;
@@ -444,12 +460,14 @@ span img {
         height: 1000px;
     }
 }
+
 @media (min-width: 768px) and (max-width:992.99px) {
     #section-5 {
         height: 1300px;
     }
 }
-@media (max-width: 576px){
+
+@media (max-width: 576px) {
     #section-5 {
         height: 1500px;
     }
@@ -501,33 +519,37 @@ option [placeholder] {
     #section-6 {
         height: 1600px;
     }
+
     input,
-select,
-textarea {
-    margin-bottom: 20px;
+    select,
+    textarea {
+        margin-bottom: 20px;
+    }
 }
-}
-@media (max-width: 576px){
+
+@media (max-width: 576px) {
     #section-6 {
         height: 1600px;
     }
+
     input,
-select,
-textarea {
-    margin-bottom: 20px;
-}
+    select,
+    textarea {
+        margin-bottom: 20px;
+    }
 }
 
 
 /* section7 */
 #section-7 {
-    height: 300px;
+    height: 250px;
     width: 100%vw;
     background-color: #F5FCFF;
+    border-bottom: 1px solid black;
 }
 
 .footer {
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .foot-logo {
@@ -563,6 +585,7 @@ textarea {
 #section-8 {
     height: 100px;
     background-color: #F5FCFF;
+    padding-top: 30px;
 }
 
 .foot-2 {
@@ -602,6 +625,7 @@ textarea {
     }
 
 }
+
 @media (min-width: 992px) and (max-width:1199.99px) {
     .foot-container {
         margin-left: 100px;
@@ -615,33 +639,39 @@ textarea {
         margin-left: 20px;
         font-size: 1rem;
     }
-.foot-icons img {
-    height: 20px;
-    width: 20px;
-    margin-right: 0px;
+
+    .foot-icons img {
+        height: 20px;
+        width: 20px;
+        margin-right: 0px;
+    }
 }
-}
+
 @media (min-width: 768px) and (max-width:992.99px) {
     .foot-logo {
         margin-left: 20px;
     }
+
     .services p {
         margin-right: 10px;
     }
+
     .foot-2 {
         margin-left: 30px;
     }
-    
+
 }
+
 @media (max-width: 576px) {
     .foot-logo {
         margin-left: 10px;
     }
+
     .services p {
         margin-right: 10px;
     }
+
     .foot-2 {
         margin-left: 30px;
     }
-    
 }
